@@ -1,0 +1,10 @@
+To compile rogue:
+
+1) Change the path in pathnames.h to wherever you want rogue.scores to be
+   created (in a pinch, your home directory, "/Users/yourname/rogue.scores"
+   should do the trick).
+
+2) Type make
+3) ./rogue to play.
+
+

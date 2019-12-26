@@ -1,0 +1,57 @@
+ROGUE(6)                       BSD Games Manual                       ROGUE(6)
+
+NAME
+     rogue - exploring The Dungeons of Doom
+
+SYNOPSIS
+     rogue [-r] [save_file] [-s] [-d]
+
+DESCRIPTION
+     The rogue is a computer fantasy with a new twist.  It is CRT oriented and
+     the object of the game is to survive the attacks of various monsters and
+     get a lot of gold, rather than the puzzle solving orientation of most
+     computer fantasy games.
+
+     To get started you really only need to know two commands.  The command ?
+     will give you a list of the available commands and the command / will
+     identify the things you see on the screen.
+
+     To win the game (as opposed to merely playing to beat other people's high
+     scores) you must locate the Amulet of Yendor which is somewhere below the
+     20th level of the dungeon and get it out.  Nobody has achieved this yet
+     and if somebody does, they will probably go down in history as a hero
+     among heroes.
+
+     When the game ends, either by your death, when you quit, or if you (by
+     some miracle) manage to win, rogue will give you a list of the top-ten
+     scorers.  The scoring is based entirely upon how much gold you get.
+     There is a 10% penalty for getting yourself killed.
+
+     If save_file is specified, rogue will be restored from the specified
+     saved game file.
+
+     The -s option will print out the list of scores.
+
+     For more detailed directions, read the document A Guide to the Dungeons
+     of Doom.
+
+AUTHORS
+     Timothy Stoehr,
+     Michael C. Toy,
+     Kenneth C. R. C. Arnold,
+     Glenn Wichman
+
+FILES
+     /var/games/rogue.scores    score file
+     rogue.save                 default save file
+
+SEE ALSO
+     Michael C. Toy and Kenneth C. R. C. Arnold, A Guide to the Dungeons of
+     Doom, (see /usr/share/doc/usd/30.rogue/).
+
+BUGS
+     Probably infinite, although none are known.  However, that Ice Monsters
+     sometimes transfix you permanently is not a bug.  It's a feature.
+
+BSD                            December 7, 2000                            BSD
+
